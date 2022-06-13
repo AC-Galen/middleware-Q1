@@ -9,7 +9,7 @@ app.use((req, res, next) => {
 
 app.get('/', (req, res) => {
   res.send(`列出全部 Todo
-  <form action='/' method="POST"><button></button></form>`)
+  <form action='/' method="POST"><button>新增</button></form>`)
 })
 
 app.get('/new', (req, res) => {
